@@ -94,7 +94,8 @@ margin-top: 1rem;
   padding-bottom: -2.5rem;
 }
 .first_div_redux{
-  width: 50%;
+  width: 53%;
+  padding-left: 1rem;
 }
 .second_div_redux{
   width: 40%;
@@ -107,7 +108,7 @@ margin-top: 1rem;
   justify-content: space-around;
   background-color: #C4C4C4;
   height: 150px;
-  margin-top: 2rem;
+  margin-top: .2rem;
 
 }
 
@@ -126,27 +127,29 @@ button{
 .footer_div{
   display: flex;
   flex-wrap: wrap;
-  height: 440px;
+  justify-content: space-evenly;
+  height: 350px;
   width: 100%;
   background-color: black;
+  padding: 1rem;
 }
 .div_one_footer{
-  width: 50%;
-  height: 336.17px;
+  width: 45%;
+  height: 270px;
   background-color: #464646;
   margin-top: 1rem;
   
 }
 .div_two_footer{
-  width: 20%;
-  height: 336.17px;
+  width: 23%;
+  height: 270px;
   background-color:  #464646;
   margin-top: 1rem;
   margin-left: 1rem;
 }
 .div_three_footer{
-  width: 20%;
-  height: 336.17px;
+  width: 24%;
+  height: 270px;
   background-color:  #464646;
   margin-top: 1rem;
   margin-left: 1rem;
@@ -209,4 +212,15 @@ button{
   background-color:  rgb(12, 11, 11);
   color: #ffffff;
 }
+.div_one_footer{
+  width: 90%;
+}
+.div_two_footer,.div_three_footer{
+  display: none;
+}
+}
+@media (max-width: 375px){
+  .second_div_row{
+    height: auto;
+  }
 }
