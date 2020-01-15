@@ -44,6 +44,16 @@ height: 336.17px;
 background-color: #C4C4C4;
 margin-top: 1rem;
 }
+.inside_content_cricle_one{
+  display: none;
+}
+.inside_content_cricle{
+  margin-top: 8rem;
+  height: 90px;
+  width: 100px;
+  background-color: #ffffff;
+  border-radius: 80%;
+}
 
 /* Second div row styles */
 
@@ -123,7 +133,7 @@ button{
   height: 336.17px;
   background-color: #464646;
   margin-top: 1rem;
-  margin-left: 1rem;
+  
 }
 .div_two_footer{
   width: 20%;
@@ -138,4 +148,63 @@ button{
   background-color:  #464646;
   margin-top: 1rem;
   margin-left: 1rem;
+}
+
+@media (max-width: 425px) {
+  .inside_content_cricle_one{
+    display: block;
+    height: 90px;
+  width: 100px;
+  background-color: #ffffff;
+  border-radius: 80%;
+  margin-top: 7.5rem;
+  }
+
+.div_two_first,.div_three_first,.div_four_first,.div_five,.div_six{
+display: none;
+}
+
+.first_div{
+  height: 20px;
+  width: 30%;
+}
+.second_div{
+  height: 20px;
+  width: 50%;
+}
+.third_div{
+  height: 20px;
+  width: 20%;
+  /* margin-top: -1.8rem; */
+  /* margin-right: 1rem; */
+  margin-left: -2rem;
+}
+.div_three{
+  background: #C4C4C4;
+}
+.div_four{
+  background: #BD00FF;
+}
+
+.second_div_row{
+  height: 516px;
+  background-color: #ffffff;
+}
+.first_div_redux{
+  display: none;
+}
+.redux_div{
+  background-color: #ffffff;
+}
+.div_inside_second_div_redux{
+  background-color: #ffffff;
+}
+.counter_number{
+  color: rgb(12, 11, 11);
+}
+button{
+  display: block;
+  background-color:  rgb(12, 11, 11);
+  color: #ffffff;
+}
 }
