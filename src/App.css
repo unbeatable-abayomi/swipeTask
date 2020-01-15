@@ -1,9 +1,12 @@
 /* styles from navbar */
 
+
+
+
 .navbar_above{
   display: flex;
   flex-wrap: wrap;
-  height: 40px;
+  height: 50px;
   width: 100%;
   background-color: black;
 }
@@ -30,30 +33,35 @@
   margin-top: 7px;
 }
 /* First div row styles */
-.firstdivrow{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  width: 100%;
-  height: 387px;  
+
+div.scroll_divs {
   background-color: #ffffff;
+  overflow: auto;
+  white-space: nowrap;
+  height: 400px;
+  overflow-y: hidden;
+  margin-bottom: 3rem;
+  margin-top: -10px;
 }
-.div_one_first,.div_two_first,.div_three_first,.div_four_first{
-width: 287.61px;
-height: 336.17px;
-background-color: #C4C4C4;
-margin-top: 1rem;
+
+div.scroll_divs div {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  margin: 5rem 2rem 2rem .2rem;
+  background-color: #C4C4C4;
+  height: 290px;
+  width: 270px;
 }
-.inside_content_cricle_one{
-  display: none;
+
+div.scroll_divs div:hover {
+  background-color: #777;
+
 }
-.inside_content_cricle{
-  margin-top: 8rem;
-  height: 90px;
-  width: 100px;
-  background-color: #ffffff;
-  border-radius: 80%;
-}
+
+
 
 /* Second div row styles */
 
