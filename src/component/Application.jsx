@@ -38,7 +38,30 @@ const Application = () => {
                     
 					
 				</div>
-			</div>
+            </div>
+            <div className='mobile_div_redux'>
+            <div className='mobile_div_redux_one'>
+            <p className="counter_number">{counter}</p>
+            </div>
+            <div className='mobile_div_redux_two'>
+            <button
+            onClick={() => {
+                disPatch(increment());
+            }}
+        >
+            Add
+        </button>
+        <button className='minus_button'
+            onClick={() => {
+                disPatch(decrement());
+            }}
+        >
+            Minus
+        </button>
+            </div>
+            
+           
+            </div>
 		</div>
 	);
 };

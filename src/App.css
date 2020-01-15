@@ -107,23 +107,29 @@ margin-top: 1rem;
   display: flex;
   justify-content: space-around;
   background-color: #C4C4C4;
-  height: 150px;
+  height: 170px;
   margin-top: .2rem;
 
 }
 
 .counter_number{
-  font-size: 3rem;
+  margin: -2rem 0px 0px 0px;
+  font-size: 9rem;
   font-weight: bolder;
   color: #ffffff;
 }
 button{
   margin-top: 4rem;
-  width: 53px;
+  width: 93px;
   height: 35px;
   border: none;
 }
+.mobile_div_redux{
+  display: none;
+}
 
+
+  /* footer stylings */
 .footer_div{
   display: flex;
   flex-wrap: wrap;
@@ -195,7 +201,7 @@ display: none;
   height: 516px;
   background-color: #ffffff;
 }
-.first_div_redux{
+.first_div_redux,.second_div_redux{
   display: none;
 }
 .redux_div{
@@ -206,11 +212,19 @@ display: none;
 }
 .counter_number{
   color: rgb(12, 11, 11);
+  margin: -5px 0px 0px 0px;
+  font-size: 9rem;
 }
 button{
   display: block;
   background-color:  rgb(12, 11, 11);
   color: #ffffff;
+  margin-bottom: 1.5rem;
+  width: 100px;
+
+}
+.minus_button{
+  margin-top: -1rem;
 }
 .div_one_footer{
   width: 90%;
@@ -218,6 +232,16 @@ button{
 .div_two_footer,.div_three_footer{
   display: none;
 }
+.mobile_div_redux{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.mobile_div_redux{
+  margin-top: -20rem;
+  margin-bottom: 2rem;
+}
+
 }
 @media (max-width: 375px){
   .second_div_row{
