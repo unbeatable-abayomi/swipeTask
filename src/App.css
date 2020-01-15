@@ -62,7 +62,7 @@ margin-top: 1rem;
   flex-wrap: wrap;
   height:  312px;
   width: 100%;
-  background-color: black;
+  background-color: #ffffff;
   justify-content: space-evenly;
 }
 
@@ -89,7 +89,9 @@ margin-top: 1rem;
   flex-wrap: wrap;
   justify-content: space-evenly;
   background-color: #7A7A7A;
-  height: 13rem;
+  height: 20rem;
+  margin-bottom: 2.5rem;
+  padding-bottom: -2.5rem;
 }
 .first_div_redux{
   width: 50%;
