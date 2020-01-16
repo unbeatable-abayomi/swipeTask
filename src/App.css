@@ -61,6 +61,16 @@ div.scroll_divs div:hover {
 
 }
 
+#div_circle{
+  background-color:#ffffff;
+  height: 7rem;
+  width: 6rem;
+  position: relative;
+  left: 54.5rem;
+  bottom: 6.7rem;
+  border-radius: 50%;
+}
+
 
 
 /* Second div row styles */
@@ -248,6 +258,15 @@ button{
 .mobile_div_redux{
   margin-top: -20rem;
   margin-bottom: 2rem;
+}
+#div_circle{
+  background-color:#ffffff;
+  height: 7rem;
+  width: 6rem;
+  position: relative;
+  left: 15rem;
+  bottom: 6.7rem;
+  border-radius: 50%;
 }
 
 }
